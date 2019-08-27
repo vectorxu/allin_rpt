@@ -16,6 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from django.conf.urls import *
+from allin_rpt.views import *
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('hellow/', hello),
+    path('current_time/', current_time),
+    path('', index),
 ]

@@ -14,9 +14,3 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'allin_rpt.settings')
 
 application = get_wsgi_application()
-
-
-
-
-
-11
